@@ -146,8 +146,14 @@ var SampleApp = function() {
     self.start = function() {
         //  Start the app on the specific interface (and port).
         self.app.listen(self.port, self.ipaddress, function() {
-            console.log('%s: Node server started on %s:%d ...',
-                        Date(Date.now() ), self.ipaddress, self.port);
+            console.log('%s: Node server started on %s:%d ...', Date(Date.now() ), self.ipaddress, self.port);
+            console.log('TEST IN C9 AT:  https://gritmanifesto-pelling.c9users.io/');
+            console.log('DEPLOY - ADD OR REMOVE FILES:  $ git add .');
+            console.log('DEPLOY - COMMIT:               $ git commit -m "commit message goes here"');
+            console.log('DEPLOY - PUSH TO GITHUB:       $ git push');
+            console.log('DEPLOY - PUSH TO OPENSHIFT:    $ git push openshift master');
+            console.log('STOP NODE (MAC):  control + C');
+            console.log('STOP NODE (LINUX OR WINDOWS):  control + shift + C');
         });
     };
 
