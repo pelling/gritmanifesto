@@ -8,10 +8,12 @@
 html, body {
     height: 100%;
     width: 100%;
-    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-    color: #757575;
+    font-family: Garamond, "Adobe Garamond Pro", "Hoefler Text", Georgia, serif;
+    color: #202020;
     margin:0; 
-    padding:0
+    padding:0;
+    background-color:#202020;
+
 }
 img {
     max-width: 100%;
@@ -36,35 +38,36 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 .container > .left {
-    font-size:16px;
+    font-size:20px;
     display: inline-block;
     width: 25%;
     box-sizing: border-box;
-    background-color:black;
-    padding:6px;
+    padding:20px 6px;
     text-align: left;
     vertical-align: top;
+    color:#c0c0c0;
 }
 
 .container > .center {
-    font-size:16px;
+    font-size:20px;
     display: inline-block;
     width: 55%;
     box-sizing: border-box;
-    padding:6px;
+    padding:20px 6px;
     text-align: left;
     vertical-align: top;
+    background-color:#FFFFFF;
 }
 
 .container > .right {
-    font-size:16px;
+    font-size:20px;
     display: inline-block;
     width: 20%;
     box-sizing: border-box;
-    background-color:black;
-    padding:6px;
+    padding:20px 6px;
     text-align: left;
     vertical-align: top;
+    color:#c0c0c0;
 }
 
 
@@ -99,4 +102,12 @@ h1, h2, h3, h4, h5, h6 {
         width: 100%;
     }
 }
+
+
+/* SPECIAL TEXT */
+.gm-text-xxl { font-size:200%; line-height: 220%;}
+.gm-text-xl { font-size:140%; line-height: 160%;}
+.gm-text-lg { font-size:120%; line-height: 140%;}
+.gm-text-sm { font-size:80%;}
+.gm-text-xs { font-size:60%;}
 
