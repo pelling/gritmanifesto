@@ -108,3 +108,21 @@ h1, h2, h3, h4, h5, h6 {
 .gm-text-sm { font-size:80%;}
 .gm-text-xs { font-size:60%;}
 
+/* QUOTATIONS */
+.author { padding-bottom:100px;}
+
+.quote {
+  padding-top:25px;
+  background-image: url(../img/quote-open.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+  text-indent: 65px;
+  }
+.quote span {
+    padding-bottom:25px;
+    display: block;
+    background-image: url(../img/quote-close.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
