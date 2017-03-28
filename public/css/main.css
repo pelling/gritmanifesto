@@ -110,7 +110,7 @@ h1, h2, h3, h4, h5, h6 {
 .gm-text-xl { font-size:140%;}
 .gm-text-lg { font-size:120%;}
 .gm-text-sm { font-size:80%;}
-.gm-text-xs { font-size:60%;}
+.gm-text-xs { font-size:60%; display: block;}
 
 /* QUOTATIONS */
 
@@ -140,3 +140,7 @@ h1, h2, h3, h4, h5, h6 {
     background-position: bottom right;
 }
 
+
+
+/*  SIGNATURES SECTION  */
+.right a { color:#4099FF;}
